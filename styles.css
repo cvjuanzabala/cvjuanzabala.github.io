@@ -1,0 +1,118 @@
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fcebb6;
+}
+.encabezado{
+    background-color:#78c0a8;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.nombre{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: -5px;
+}
+
+.imagen{
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circulo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:none;
+}
+#hola{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 300;
+    font-size: 80px;
+    margin-top: -20px;
+    padding: 0;
+}
+#sobreMi{
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    margin-top:-40px ;
+}
+#boton1{
+    background-color: #5e412f;
+    color: aliceblue;
+    transition: all 0.2s;
+}
+.marco1{
+    border:solid 2px #5e412f;
+    background-color: #f1d4c2;
+    transition: all 0.5s;
+}
+
+#boton1:active{
+    background-color: #78533b;
+}
+
+#boton2{
+    background-color: #78c0a8;
+    color: aliceblue;
+    transition: all 0.2s;
+}
+.marco2{
+    border:solid 2px #78c0a8;
+    background-color: #b2f0db;
+    transition: all 0.5s;
+}
+
+#boton2:active{
+    background-color: #63a58f;
+}
+
+
+#boton3{
+    background-color: #f0a830;
+    color: aliceblue;
+    transition: all 0.2s;
+}
+.marco3{
+    border:solid 2px #f0a830;
+    background-color:#f4c87b;
+    transition: all 0.5s;
+}
+
+#boton3:active{
+    background-color: #c78d29;
+}
+
+#boton1:hover, #boton2:hover, #boton3:hover{
+    box-shadow: 0px 0px 20px rgb(137, 137, 137);
+}
+
+
+#contenido{
+    margin:10px 0 20px 0;
+    border-radius: 20px;
+    padding: 5px 20px 0px 20px;
+}
+
+div a{
+    text-decoration: none;
+}
+
+.footer{
+    margin-top:20px;
+    padding: 20px;
+    background-color: #f07818;
+}
+
+.datos{
+    color: aliceblue;
+}
+
+.copyright{
+    color: rgb(199, 203, 207);
+}
+.logos{
+    fill:aliceblue;
+}
